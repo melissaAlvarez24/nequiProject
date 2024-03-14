@@ -37,7 +37,7 @@ export const LoansV = () => {
   const [options] = useState<TTypeDocument[]>([
     {label: 'Rechazado', value: 'rejected'},
     {label: 'Pendiente', value: 'pending'},
-    {label: 'Aprovado', value: 'active'},
+    {label: 'Aprobado', value: 'active'},
     {label: 'Todas', value: 'all'},
   ]);
   const [dataShow, setDataShow] = useState(dataDummy);

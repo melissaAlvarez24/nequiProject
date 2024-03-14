@@ -27,7 +27,7 @@ export const CardLoanC = ({
     text: {
       rejected: 'Rechazado',
       pending: 'Pendiente',
-      active: 'Aprovado',
+      active: 'Aprobado',
     },
   });
   return (
